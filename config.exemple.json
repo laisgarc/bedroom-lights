@@ -1,0 +1,12 @@
+{ "device_keys": [
+	{ 
+		"Name":"Nome do device",
+		"id":"xxxxxxxxxxxxxxxxx",
+		"key":"xxxxxxxxxxxxxxx"
+	},
+	{ 
+		"Name":"Lampada Wi-Fi+bluetooth",
+		"id":"xxxxxxxxxxxxxxxxxxxx",
+		"key":"xxxxxxxxxxxxxxxx"
+	}
+]}

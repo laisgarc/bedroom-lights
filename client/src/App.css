@@ -1,0 +1,99 @@
+
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-image: linear-gradient(45deg, #ec8c69 0%, #ed6ea0 48%, #9775fa 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  animation: backgroundcolor 5s linear infinite;
+}
+
+.Titulo {
+  color: #474747;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+}
+
+.Titulo h1 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.svgDivider {
+  animation: pagedivider 5s linear infinite;
+}
+
+.react-colorful {
+  height: unset !important;
+  width: 100% !important;
+  margin-bottom: 40px;
+}
+
+.picker .react-colorful__saturation {
+  display: none;
+}
+
+.picker  .react-colorful__hue {
+  height: 25px;
+  border-radius: 200px;
+}
+@keyframes pagedivider {
+  0% { 
+    width: 125%;
+    height: 75px;
+  }
+  25% { 
+    width: 115%;
+    height: 85px;
+  }
+  50% { 
+    width: 120%;
+    height: 90px;
+  }
+  75% { 
+    width: 130%;
+    height: 80px;
+  }
+  100% { 
+    width: 125%;
+    height: 75px;
+  }
+}
+
+
+@keyframes backgroundcolor {
+  0% { 
+    background-image: linear-gradient(45deg, #ec8c69 0%, #ed6ea0 48%, #9775fa 100%);
+  }
+  25% { 
+    background-image: linear-gradient(45deg, #ec8c69 5%, #ed6ea0 55%, #9775fa 95%);
+  }
+  50% { 
+    background-image: linear-gradient(45deg, #ec8c69 10%, #ed6ea0 60%, #9775fa 90%);
+  }
+  75% { 
+    background-image: linear-gradient(45deg, #ec8c69 5%, #ed6ea0 55%, #9775fa 95%);
+  }
+  100% { 
+    background-image: linear-gradient(45deg, #ec8c69 0%, #ed6ea0 48%, #9775fa 100%);
+  }
+}
